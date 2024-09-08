@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <SonarQubeTestProject>true</SonarQubeTestProject>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package info">
+    <PackageId>Bargile.MinimalApis.Extensions</PackageId>
+    <PackageDescription>A set of extensions for enhancing and simplifying the development of Minimal APIs in ASP.NET.</PackageDescription>
+    <Authors>Gabriel Abreu (@gabrielrabreu)</Authors>
+    <PackageProjectUrl>https://github.com/gabrielrabreu/MinimalApis.Extensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/gabrielrabreu/MinimalApis.Extensions</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Version>$(Version)</Version>
+  </PropertyGroup>
+
+  <ItemGroup Label="Package files">
+    <None Include="..\..\README.md" Visible="false" Pack="true" PackagePath="/" />
+    <None Include="..\..\LICENSE" Visible="false" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>
