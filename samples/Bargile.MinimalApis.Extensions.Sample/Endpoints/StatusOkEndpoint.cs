@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
 
-namespace MinimalApis.Extensions.Sample.Endpoints;
+namespace Bargile.MinimalApis.Extensions.Sample.Endpoints;
 
 public class StatusOkEndpoint : MinimalApiEndpoint
 {

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Routing;
 using System.Reflection;
 
-namespace MinimalApis.Extensions.UnitTests;
+namespace Bargile.MinimalApis.Extensions.UnitTests;
 
 public class MinimalApiEndpointConfigurationTests
 {

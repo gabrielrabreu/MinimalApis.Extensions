@@ -1,7 +1,6 @@
 ﻿using System.Reflection;
 
-
-namespace MinimalApis.Extensions;
+namespace Bargile.MinimalApis.Extensions;
 
 public class MinimalApiEndpointConfiguration
 {

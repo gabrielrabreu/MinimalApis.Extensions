@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <PropertyGroup Label="Package info">
-    <PackageId>Bargile.MinimalApis.Extensions</PackageId>
     <PackageDescription>A set of extensions for enhancing and simplifying the development of Minimal APIs in ASP.NET.</PackageDescription>
     <Authors>Gabriel Abreu (@gabrielrabreu)</Authors>
     <PackageProjectUrl>https://github.com/gabrielrabreu/MinimalApis.Extensions</PackageProjectUrl>

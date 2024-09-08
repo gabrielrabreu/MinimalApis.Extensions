@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Routing;
 using System.Reflection;
 
-namespace MinimalApis.Extensions;
+namespace Bargile.MinimalApis.Extensions;
 
 public static class EndpointRouteBuilderExtensions
 {

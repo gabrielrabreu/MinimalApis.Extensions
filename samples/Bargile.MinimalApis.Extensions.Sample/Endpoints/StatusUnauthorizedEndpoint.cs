@@ -1,25 +1,25 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MinimalApis.Extensions.Sample.Endpoints;
+namespace Bargile.MinimalApis.Extensions.Sample.Endpoints;
 
-public class StatusServiceUnavailableEndpoint : MinimalApiEndpoint
+public class StatusUnauthorizedEndpoint : MinimalApiEndpoint
 {
     public override void Define(IEndpointRouteBuilder builder)
     {
-        builder.MapPost("/Status/ServiceUnavailable", Handle)
+        builder.MapPost("/Status/Unauthorized", Handle)
             .WithOpenApi()
             .WithTags("Status")
-            .ProducesServiceUnavailable();
+            .ProducesUnauthorized();
     }
 
     private ProblemHttpResult Handle()
     {
         return TypedResults.Problem(new ProblemDetails
         {
-            Title = "Service unavailable.",
+            Title = "Unauthorized.",
             Detail = "Details",
-            Status = StatusCodes.Status503ServiceUnavailable
+            Status = StatusCodes.Status401Unauthorized
         });
     }
 }

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Routing;
 
-namespace MinimalApis.Extensions;
+namespace Bargile.MinimalApis.Extensions;
 
 public abstract class MinimalApiEndpoint
 {

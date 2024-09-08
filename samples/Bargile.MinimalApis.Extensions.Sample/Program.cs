@@ -1,4 +1,4 @@
-using MinimalApis.Extensions;
+using Bargile.MinimalApis.Extensions;
 using Serilog;
 using Serilog.Extensions.Logging;
 using System.Reflection;

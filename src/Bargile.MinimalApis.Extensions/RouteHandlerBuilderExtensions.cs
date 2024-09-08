@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MinimalApis.Extensions;
+namespace Bargile.MinimalApis.Extensions;
 
 public static class RouteHandlerBuilderExtensions
 {

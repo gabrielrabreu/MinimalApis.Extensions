@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Testing;
 using System.Net;
 
-namespace MinimalApis.Extensions.Sample.FunctionalTests.Endpoints;
+namespace Bargile.MinimalApis.Extensions.Sample.FunctionalTests.Endpoints;
 
 public class StatusServiceUnavailableEndpointTests(WebApplicationFactory<IWebMarker> factory) : IClassFixture<WebApplicationFactory<IWebMarker>>
 {

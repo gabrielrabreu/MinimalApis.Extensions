@@ -9,13 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F5E6D0A9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{AD125EB2-91E3-49F5-ADF8-DF925BABE34D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApis.Extensions", "src\MinimalApis.Extensions\MinimalApis.Extensions.csproj", "{C4B0019A-BE3F-4364-B76E-B834CBF35146}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bargile.MinimalApis.Extensions", "src\Bargile.MinimalApis.Extensions\Bargile.MinimalApis.Extensions.csproj", "{C4B0019A-BE3F-4364-B76E-B834CBF35146}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApis.Extensions.UnitTests", "tests\MinimalApis.Extensions.UnitTests\MinimalApis.Extensions.UnitTests.csproj", "{E527F64A-8036-43ED-9D96-78BCCE1CF8F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bargile.MinimalApis.Extensions.UnitTests", "tests\Bargile.MinimalApis.Extensions.UnitTests\Bargile.MinimalApis.Extensions.UnitTests.csproj", "{E527F64A-8036-43ED-9D96-78BCCE1CF8F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApis.Extensions.Sample", "samples\MinimalApis.Extensions.Sample\MinimalApis.Extensions.Sample.csproj", "{63A35997-910B-4602-B295-E3D502B71C89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bargile.MinimalApis.Extensions.Sample", "samples\Bargile.MinimalApis.Extensions.Sample\Bargile.MinimalApis.Extensions.Sample.csproj", "{63A35997-910B-4602-B295-E3D502B71C89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApis.Extensions.Sample.FunctionalTests", "tests\MinimalApis.Extensions.Sample.FunctionalTests\MinimalApis.Extensions.Sample.FunctionalTests.csproj", "{1B4736D2-71B2-46CA-8C93-8D844BF0AE92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bargile.MinimalApis.Extensions.Sample.FunctionalTests", "tests\Bargile.MinimalApis.Extensions.Sample.FunctionalTests\Bargile.MinimalApis.Extensions.Sample.FunctionalTests.csproj", "{1B4736D2-71B2-46CA-8C93-8D844BF0AE92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

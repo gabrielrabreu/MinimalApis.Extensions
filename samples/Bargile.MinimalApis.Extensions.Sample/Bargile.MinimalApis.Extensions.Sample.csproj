@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MinimalApis.Extensions\MinimalApis.Extensions.csproj" />
+    <ProjectReference Include="..\..\src\Bargile.MinimalApis.Extensions\Bargile.MinimalApis.Extensions.csproj" />
   </ItemGroup>
 
 </Project>
